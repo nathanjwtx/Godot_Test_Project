@@ -1,0 +1,18 @@
+
+\.idea/
+
+\.mono/
+
+\.vscode/
+
+\.import/
+
+assets/PNG/Default size/
+
+Levels/Testing\.cs
+
+Levels/Testing\.tscn
+
+Characters/Enemies/EnemyTest\.tscn
+
+Assets/\.DS_Store
