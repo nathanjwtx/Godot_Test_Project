@@ -52,6 +52,7 @@
     <Compile Include="Global.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Random%20Spawn\Scenes\SpawnStar.cs" />
     <Compile Include="Random%20Spawn\Scenes\SpawnTest.cs" />
     <Compile Include="Scene%20Inheriting\Scene1.cs" />
     <Compile Include="Scene%20Inheriting\SpriteScene.cs" />
