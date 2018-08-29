@@ -1,16 +1,18 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://Random Spawn/Scenes/SpawnTest.cs" type="Script" id=1]
-[ext_resource path="res://Random Spawn/Assets/tileset_nathan.tres" type="TileSet" id=2]
+[ext_resource path="res://Random Spawn/Scenes/SpawnStar.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Random Spawn/Assets/tileset_nathan.tres" type="TileSet" id=3]
 
 [node name="Node2D" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
+Star = ExtResource( 2 )
 
 [node name="Floor" type="TileMap" parent="." index="0"]
 
 mode = 0
-tile_set = ExtResource( 2 )
+tile_set = ExtResource( 3 )
 cell_size = Vector2( 64, 64 )
 cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
@@ -33,7 +35,7 @@ _sections_unfolded = [ "Collision", "Material", "Visibility" ]
 ]]
 
 mode = 0
-tile_set = ExtResource( 2 )
+tile_set = ExtResource( 3 )
 cell_size = Vector2( 64, 64 )
 cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )

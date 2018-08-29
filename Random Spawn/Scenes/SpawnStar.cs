@@ -14,10 +14,10 @@ public class SpawnStar : Area2D
         
     }
 
-//    public override void _Process(float delta)
-//    {
-//        // Called every frame. Delta is time since last frame.
-//        // Update game logic here.
-//        
-//    }
+    public void Init(Vector2 pos)
+    {
+//        Texture texture = (Texture) GD.Load("res://Random Spawn/Assets/star.png");
+        GD.Print(pos);
+        Position = pos;
+    }
 }
